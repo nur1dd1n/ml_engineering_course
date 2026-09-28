@@ -49,7 +49,7 @@ df = pd.DataFrame(data)
 X = df[["hours", "score"]]
 y = df["level"]
 
-model = KNeighborsClassifier(n_neighbors = 7)
+model = KNeighborsClassifier(n_neighbors = 3)
 
 model.fit(X,y)
 new_student = pd.DataFrame({"hours": [7.5], "score": [78]})

@@ -43,6 +43,10 @@ print(model.predict_proba([[4]]))
 
 print(model.score(X_test, y_test))
 
+
+
+
+
 import pandas as pd
 
 df = pd.read_csv("exam.csv")
